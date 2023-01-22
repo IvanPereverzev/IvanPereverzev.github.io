@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    height: 66px;
+    background: #344051;      
+}
+
+.logo{
+    color: #fff;
+    line-height: 66px;
+    font-size: 28px;
+    padding-left: 388px; 
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;   
+}
+                                           
+.main{
+    float: left;
+    width: 100%;
+    height: 1080px;
+    background: url(../img/boy.png) 95% 100%/auto 85% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container{    
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: 2c384a;
+    text-align: center;
+}
+
+.title_container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title_container h4{
+    margin-top: 20px;
+    font-size: 26px;
+    color: #79818d
+}
+
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;    
+}
+
+.about_me{
+    text-align: center;
+    font-weight: 200px;
+}
+
+.about_me h2{
+    color: #263244;
+    font-size: 35px;
+    font-weight: bold;   
+}
+
+.about_me_container h2{
+    text-align: center;
+    width: 156px;
+    font-size: 33px;
+    margin: 110px auto 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.about_me_container{
+    width: 740px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.about_me_container p{
+    margin-top: 24px;
+    font-size: 17px;
+}
+
+.about_me_container .secondText{
+    margin-top: 45px;
+}
+
+.about_me_container a{
+    display: block;
+    width: 162px;
+    height: 33px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 40px auto 0;
+    font-size: 16px;
+    background: url(../img/input.png);
+    padding-left: 12px;
+    
+}
